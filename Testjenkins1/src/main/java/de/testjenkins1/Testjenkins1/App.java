@@ -1,13 +1,16 @@
 package de.testjenkins1.Testjenkins1;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+	int result = 10;
+	public int add(int a, int b) { 
+		return a+b;
+	}
+	public int multi(int a,int b )
+	{
+		return a*b;
+	}
 }
+
+
